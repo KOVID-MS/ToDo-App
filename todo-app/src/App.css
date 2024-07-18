@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #DEB887;
+}
+
+.container{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1, 0.1);
+
+}
+
+.todo-list-container{
+    margin-top: 20px;
+    
+}
+
+.todo-list{
+    list-style: none;
+    padding: 2px;
+    
+}
+
+.todo-list-input-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-span{
+    padding: 10px;
+
+}
+
+.task-item{
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.task-button{
+    font-family: Montserrat;
+    font-weight: 500;
+    border: 2px solid grey;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    color: black;
+    background-color: #fff;
+}
+
+.task-button:hover{
+    background-color: #339961;
+    color: #fff;
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+#input-text{
+    margin: 5px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: none;
+
+}
+
+.input-button{
+    padding: 10px;
+    height: 5vh;
+    font-family: Montserrat;
+    font-weight: 500;
+    border: 2px solid grey;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}   
+
+.input-button:hover{
+    background-color:aqua
+}
